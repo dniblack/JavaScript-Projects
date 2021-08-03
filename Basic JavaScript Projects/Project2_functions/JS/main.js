@@ -22,3 +22,12 @@ function My_Function() {                    //Defined a function and named it "M
     sentence += " a lot from this book!";   //Added a concatenate that will be added to the previous line and sentence //
     document.getElementById("Concatenate").innerHTML = sentence; //Putting the value of result into HTML element with "Concatenate" id //
 }
+
+function toFahrenheit(Celsius) {
+    return 9/5 * (Celsius+32);
+document.getElementById("Faren").innerHTML = toFahrenheit;
+}
+
+let x = toFahrenheit(15);
+let text = "The temperature is " + x + "Fahrenheit.";
+document.getElementById("Fahrenheit").innerHTML = text;
