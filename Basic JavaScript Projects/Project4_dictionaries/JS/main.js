@@ -1,5 +1,5 @@
 function Dictionary_Function() { // Named and defined the function which will be a dictionary in this case
-    var Hero = { // named the varaible and created a "title" for the dictionary
+    var Hero = { // named the variable and created a "title" for the dictionary
         Name:"Cloud Strife　クラウド　ストライフ", // This is the name in both English and Japanese (Katakana) for reference
         DOB:"08/11/1986", // This is the date of birth for our "Hero";
         Age:21, // This is the age of our "Hero";

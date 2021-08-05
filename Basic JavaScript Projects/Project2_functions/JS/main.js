@@ -18,7 +18,7 @@ function My_Function_Defense() {
     }
 
 function My_Function() {                    //Defined a function and named it "My_Function" //
-    var sentence = "I am learning";         //Gave a sentence value to the varaible //
+    var sentence = "I am learning";         //Gave a sentence value to the variable //
     sentence += " a lot from this book!";   //Added a concatenate that will be added to the previous line and sentence //
     document.getElementById("Concatenate").innerHTML = sentence; //Putting the value of result into HTML element with "Concatenate" id //
 }

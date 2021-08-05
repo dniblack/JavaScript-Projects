@@ -5,9 +5,9 @@ var Main_character =  Main_character.fontcolor("gold"), Love_Interest = Love_Int
 document.write(Main_character + " and " + Love_Interest + " go on an adventure with " + Right_Hand_Man + " as well as " + Mystery_Man + " across the many stages of FFVII.")
 
 function My_First_Function () {             //Defining a function and naming it
-    var str = "This text is green!"         //Defining a variable and giving it a
+    var str = "This text is green!"         //Defining avariable and giving it a
                                             //string value
-    var result = str.fontcolor("green")     //Using the fontcolor method on str variable
+    var result = str.fontcolor("green")     //Using the fontcolor method on strvariable
     document.getElementById("Green_Text").innerHTML = result; //Putting the value of result
                                             // into HTML element wwith "Green_Text" id
 }

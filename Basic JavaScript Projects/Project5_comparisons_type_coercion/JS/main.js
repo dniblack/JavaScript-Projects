@@ -16,7 +16,7 @@ function not2_Function() {
     document.write("<br>"); // line break for organization
     document.write(115 > 34 || 12 < 5); // In the boolean comparison, I'm using the logical operator || to compare both sides of the comparison; the return should be true
     document.write("<br>"); // line break for organization
-    document.write(typeof "Breath of the Wild"); // Used the typeof operator to return the data type of the variable; the output should be "string"
+    document.write(typeof "Breath of the Wild"); // Used the typeof operator to return the data type of thevariable; the output should be "string"
     document.write("<br>"); // line break for organization
     document.write(25 > 14); // In the boolean comparison, I'm using the less than sign to show 25 is less than 14
     document.write("<br>"); // line break for organization
