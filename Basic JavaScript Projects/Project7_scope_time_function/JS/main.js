@@ -1,5 +1,5 @@
 {
-x = 45 // created a global variable and gave it a value
+var x = 45 // created a global variable and gave it a value
 function Multi_Numebers_1() { // created and labeled a function
     document.write(145 * x + "<br>"); // used document.write to return the total of the global 
             // varaible times the interger inside the parantheses; added a line break for organization
