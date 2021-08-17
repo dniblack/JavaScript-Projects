@@ -27,12 +27,13 @@ h1 {
     text-align: center; /* Centers all h1 heading elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: azure;
+    font-size: 2vw;
 }
 
 /* Heading 1 element hover effect */
 h1:hover {
     filter: grayscale(5%); /* Adds a slightly gray filter to the h1 headings when hovered over */
-    transform: scale(1.5); /* When the h1 elements are hovered over they increase in size by 1.1 */
+    transform: scale(1.1); /* When the h1 elements are hovered over they increase in size by 1.1 */
     transition: transform 1.5s; /* This causes the transiformation to last 1 second */
     transition-timing-function: ease-in-out; /* ensures the transition both in and out is smooth rather than linear */
 }
@@ -48,7 +49,7 @@ p {
     font-family: Merriweather, Merriweather Sans, Cardo, Playfair Display, Playfair, Libre Baskerville, sans-serif;
     text-align: justify; /* This justifies the text within paragraph elements */
     letter-spacing: .1vw; /* This expands the text slightly */
-    font-size: 1.5vw; /* Relative font sizing equal to 1.5% of the viewport width */
+    font-size: .99vw; /* Relative font sizing equal to 1.5% of the viewport width */
     padding-left: 1vw; /* Relative padding equal to 1% of the viewport width */
     padding-right: 1vw; /* Relative padding equal to 1% of the viewport wifth */
 }
@@ -333,9 +334,12 @@ footer {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
-    padding-top: 3%; /* This ensures there is sapce between the top of the column and our headings */
     height: 450px; /* This sets the height of the column to 400px - thsi may need adjusting depending on the text that is entered */
     background-color: aliceblue; /* Sets the background color of the columns with the class Column-1 */
+}
+
+.Row h1 {
+    color: black;
 }
 /* Screens 576px and smaller will display a scroll bar if the text overflows the column height */
 @media screen and (max-width: 576px) {
@@ -347,7 +351,7 @@ footer {
 .Column-2 {
     float: left;
     width: 50%;
-    padding: 1/6%;
+    padding: 1.6%;
     height: 450px;
     background-color: burlywood;
 }
