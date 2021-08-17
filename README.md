@@ -8,9 +8,10 @@ Here, I will be learning and putting into practice all the information I learn a
 <ul>
 <li><a src="https://github.com/dniblack/Pizza_Project">Pizza Menu</a>
 <li><a src="https://github.com/dniblack/TicTacToe">Tic-Tac-Toe Game</a>
-<li><a sec="">Calculator</a>
+<li><a src="https://github.com/dniblack/JavaScript-Projects">Calculator</a>
 </ul>
-
+<br>
+<br>
 <h3>Pizza Menu</h3>
 <br>
 <p>This is a project that shows how to use JavaScript to select multiple items from a menu that calculates orders. As the items are being selected, the menu makes note and once all the items are selected and the order is submitted, a final price is calculated and given to the user.</p>
